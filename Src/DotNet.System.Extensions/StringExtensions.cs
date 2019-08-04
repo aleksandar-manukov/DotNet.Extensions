@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace DotNet.Extensions.System.Extensions
+namespace DotNet.System.Extensions
 {
     /// <summary>
     /// Class containing string extensions.

@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace DotNet.Extensions.System.Extensions.Tests
+namespace DotNet.System.Extensions.Tests
 {
     public class StringExtensionsTests
     {
