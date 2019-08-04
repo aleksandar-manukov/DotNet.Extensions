@@ -3,7 +3,8 @@
         <Authors>Aleksandar Manukov</Authors>
         <PackageProjectUrl>https://github.com/aleksandar-manukov/DotNet.Extensions</PackageProjectUrl>
         <RepositoryUrl>https://github.com/aleksandar-manukov/DotNet.Extensions</RepositoryUrl>
-        <DocumentationFile>$(TargetPath)$(MSBuildProjectName).xml</DocumentationFile>
+        <!--<DocumentationFile>$(TargetPath)$(MSBuildProjectName).xml</DocumentationFile>-->
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
     </PropertyGroup>
     
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
