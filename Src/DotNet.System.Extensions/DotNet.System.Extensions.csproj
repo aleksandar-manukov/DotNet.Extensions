@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>DotNet.System</RootNamespace>
         <Description>This package contains extensions for classes from System namespace.</Description>
         <PackageTags>extensions;dotnet;system;string</PackageTags>
         <VersionPrefix>1.0.0</VersionPrefix>
