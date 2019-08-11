@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Src\DotNet.System.Extensions\DotNet.System.Extensions.csproj" />
+    <ProjectReference Include="..\..\Src\DotNet.System.Collections.Extensions\DotNet.System.Collections.Extensions.csproj" />
   </ItemGroup>
 
 </Project>

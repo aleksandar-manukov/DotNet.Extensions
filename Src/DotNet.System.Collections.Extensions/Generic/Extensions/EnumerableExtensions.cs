@@ -41,11 +41,12 @@ namespace DotNet.System.Collections.Generic.Extensions
             }
 
             return collection.Select(i =>
-            {
-                action(i);
+                {
+                    action(i);
 
-                return i;
-            });
+                    return i;
+                })
+                .ToArray();
         }
     }
 }

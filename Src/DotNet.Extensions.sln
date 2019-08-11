@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Props", "Props", "{CB1D2FB0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.System.Collections.Extensions", "DotNet.System.Collections.Extensions\DotNet.System.Collections.Extensions.csproj", "{4F7A943F-3A50-4F26-811F-23818BEE726D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.System.Collections.Extensions.Tests", "..\Tests\DotNet.System.Collections.Extensions.Tests\DotNet.System.Collections.Extensions.Tests.csproj", "{6526A016-7CDF-4237-ACB8-BD6FF4A5551E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{4F7A943F-3A50-4F26-811F-23818BEE726D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F7A943F-3A50-4F26-811F-23818BEE726D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F7A943F-3A50-4F26-811F-23818BEE726D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6526A016-7CDF-4237-ACB8-BD6FF4A5551E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6526A016-7CDF-4237-ACB8-BD6FF4A5551E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6526A016-7CDF-4237-ACB8-BD6FF4A5551E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6526A016-7CDF-4237-ACB8-BD6FF4A5551E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{F143A4F0-DC6F-4D6C-A271-ED3054AE70B2} = {75A8D54E-BC73-44B5-A016-B25131DDD8B1}
 		{A0878F03-988A-4CED-B727-F96A21030318} = {D6115256-A30D-4DDF-B2EC-ACD29F21BB33}
 		{4F7A943F-3A50-4F26-811F-23818BEE726D} = {75A8D54E-BC73-44B5-A016-B25131DDD8B1}
+		{6526A016-7CDF-4237-ACB8-BD6FF4A5551E} = {D6115256-A30D-4DDF-B2EC-ACD29F21BB33}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4127019-8CEC-458D-8192-99AC324D4C9C}
