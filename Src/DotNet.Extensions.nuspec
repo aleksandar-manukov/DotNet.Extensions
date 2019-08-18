@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>DotNet.Extensions</id>
+        <version>1.0.0</version>
+        <authors>Aleksandar Manukov</authors>
+        <owners>Aleksandar Manukov</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <projectUrl>https://github.com/aleksandar-manukov/DotNet.Extensions</projectUrl>
+        <description>This package contains extensions for built in .NET classes.</description>
+        <tags>extensions dotnet</tags>
+        <repository url="https://github.com/aleksandar-manukov/DotNet.Extensions" />
+        <dependencies>
+            <group targetFramework=".NETFramework4.6.1">
+                <dependency id="DotNet.System.Extensions" version="1.0.0" />
+                <dependency id="DotNet.System.Collections.Extensions" version="1.0.0" />
+            </group>
+            <group targetFramework=".NETFramework4.6.2">
+                <dependency id="DotNet.System.Extensions" version="1.0.0" />
+                <dependency id="DotNet.System.Collections.Extensions" version="1.0.0" />
+            </group>
+            <group targetFramework=".NETFramework4.7">
+                <dependency id="DotNet.System.Extensions" version="1.0.0" />
+                <dependency id="DotNet.System.Collections.Extensions" version="1.0.0" />
+            </group>
+            <group targetFramework=".NETFramework4.7.1">
+                <dependency id="DotNet.System.Extensions" version="1.0.0" />
+                <dependency id="DotNet.System.Collections.Extensions" version="1.0.0" />
+            </group>
+            <group targetFramework=".NETFramework4.7.2">
+                <dependency id="DotNet.System.Extensions" version="1.0.0" />
+                <dependency id="DotNet.System.Collections.Extensions" version="1.0.0" />
+            </group>
+            <group targetFramework=".NETStandard2.0">
+                <dependency id="DotNet.System.Extensions" version="1.0.0" />
+                <dependency id="DotNet.System.Collections.Extensions" version="1.0.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files />
+</package>
