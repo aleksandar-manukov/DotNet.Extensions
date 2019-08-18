@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace DotNet.System.Collections.Generic.Extensions
 {
@@ -40,13 +39,12 @@ namespace DotNet.System.Collections.Generic.Extensions
                 throw new ArgumentNullException(nameof(action), "Action cannot be null.");
             }
 
-            return collection.Select(i =>
-                {
-                    action(i);
+            foreach (T item in collection)
+            {
+                action.Invoke(item);
+            }
 
-                    return i;
-                })
-                .ToArray();
+            return collection;
         }
     }
 }
