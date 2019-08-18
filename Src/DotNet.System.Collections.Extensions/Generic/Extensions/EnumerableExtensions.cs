@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace DotNet.System.Collections.Generic.Extensions
 {
     /// <summary>
-    /// Class containing enumerable extensions.
+    /// Class containing <see cref="IEnumerable{T}"/> extensions.
     /// </summary>
     public static class EnumerableExtensions
     {

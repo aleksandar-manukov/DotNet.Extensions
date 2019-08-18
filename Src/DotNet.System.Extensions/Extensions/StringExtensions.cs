@@ -4,7 +4,7 @@ using System.Text;
 namespace DotNet.System.Extensions
 {
     /// <summary>
-    /// Class containing string extensions.
+    /// Class containing <see cref="string"/> extensions.
     /// </summary>
     public static class StringExtensions
     {
