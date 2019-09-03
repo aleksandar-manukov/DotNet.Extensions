@@ -10,6 +10,6 @@
     
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
         <PackageOutputPath>D://Packages/</PackageOutputPath>
-        <VersionSuffix>prerelease</VersionSuffix>
+        <!--<VersionSuffix>prerelease</VersionSuffix>-->
     </PropertyGroup>
 </Project>
