@@ -4,6 +4,6 @@
         <RootNamespace>DotNet.System.Collections</RootNamespace>
         <Description>This package contains extensions for classes from System.Collections namespace.</Description>
         <PackageTags>extensions;dotnet;system;collections;enumerable;list</PackageTags>
-        <VersionPrefix>1.0.0</VersionPrefix>
+        <VersionPrefix>2.0.0</VersionPrefix>
     </PropertyGroup>
 </Project>
