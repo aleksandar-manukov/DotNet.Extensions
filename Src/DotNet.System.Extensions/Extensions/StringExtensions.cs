@@ -12,7 +12,7 @@ namespace DotNet.System.Extensions
         /// Converts any string to camel case.
         /// </summary>
         /// <param name="text">String to be converted to camel case string.</param>
-        /// <returns></returns>
+        /// <returns>String in camel case.</returns>
         /// <exception cref="ArgumentNullException">Thrown when string is null, empty or contains only white spaces.</exception>
         /// <example>
         /// This is an example, showing how to use <see cref="ToCamelCase(string)"/>.
@@ -28,7 +28,7 @@ namespace DotNet.System.Extensions
         {
             if (string.IsNullOrWhiteSpace(text))
             {
-                throw new ArgumentNullException(string.Empty, "Text cannot be null, empty or contains only white spaces.");
+                throw new ArgumentNullException(nameof(text), "Text cannot be null, empty or contains only white spaces.");
             }
 
             StringBuilder sb = new StringBuilder();
