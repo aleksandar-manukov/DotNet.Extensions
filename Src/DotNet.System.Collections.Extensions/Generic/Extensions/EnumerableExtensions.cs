@@ -11,10 +11,11 @@ namespace DotNet.System.Collections.Generic.Extensions
         /// <summary>
         /// Applies provided action to each element of the collection and returns the collection.
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="collection"></param>
-        /// <param name="action"></param>
-        /// <returns></returns>
+        /// <typeparam name="T">Generic parameter for <see cref="IEnumerable{T}"/> collection.</typeparam>
+        /// <param name="collection"><see cref="IEnumerable{T}"/> collection for which elements provided action will be executed.</param>
+        /// <param name="action">Action to be applied to each element of the collection.</param>
+        /// <returns>Collection with updated items.</returns>
+        /// <exception cref="ArgumentNullException">Thrown when collection or action are null.</exception>
         /// <example>
         /// This is an example, showing how to use <see cref="ForEach{T}(IEnumerable{T}, Action{T})"/>.
         /// <code>
