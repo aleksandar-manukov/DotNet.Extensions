@@ -13,6 +13,7 @@ namespace DotNet.System.Extensions
         /// </summary>
         /// <param name="text">String to be converted to camel case string.</param>
         /// <returns></returns>
+        /// <exception cref="ArgumentNullException">Thrown when string is null, empty or contains only white spaces.</exception>
         /// <example>
         /// This is an example, showing how to use <see cref="ToCamelCase(string)"/>.
         /// <code>
