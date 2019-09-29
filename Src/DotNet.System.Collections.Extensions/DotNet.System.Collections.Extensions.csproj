@@ -3,7 +3,7 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <RootNamespace>DotNet.System.Collections</RootNamespace>
         <Description>This package contains extensions for classes from System.Collections namespace.</Description>
-        <PackageTags>extensions;dotnet;system;collections;enumerable;list</PackageTags>
+        <PackageTags>extensions;dotnet;system;collections;generic;enumerable;collection;list</PackageTags>
         <VersionPrefix>1.0.0</VersionPrefix>
     </PropertyGroup>
 </Project>
