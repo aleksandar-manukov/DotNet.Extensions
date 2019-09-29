@@ -19,5 +19,19 @@ namespace DotNet.System.Collections.Extensions.Tests
             // Assert
             Assert.Equal(expectedResult, collection);
         }
+
+        [Theory]
+        [InlineData(new string[] { "string 1", "   ", "", "string 2", null }, new[] { "string 1", "string 2" })]
+        public void RemoveWhere_Method_Should_Remove_Null_Empty_Or_Only_White_Spaces_Strings_From_The_Collection(IEnumerable<string> inittialItems, IEnumerable<string> expectedResult)
+        {
+            // Arrange
+            ICollection<string> collection = new List<string>(inittialItems);
+
+            // Act
+            collection.RemoveWhere(s => string.IsNullOrWhiteSpace(s));
+
+            // Assert
+            Assert.Equal(expectedResult, collection);
+        }
     }
 }
