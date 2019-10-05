@@ -20,7 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		Directory.Build.props = Directory.Build.props
 		Directory.Build.targets = Directory.Build.targets
-		DotNet.Extensions.Docs.txt = DotNet.Extensions.Docs.txt
+		DotNet.Extensions.HowTo.txt = DotNet.Extensions.HowTo.txt
 		DotNet.Extensions.nuspec = DotNet.Extensions.nuspec
 	EndProjectSection
 EndProject
@@ -28,7 +28,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.System.Reflection.Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.System.Reflection.Extensions.Tests", "..\Tests\DotNet.System.Reflection.Extensions.Tests\DotNet.System.Reflection.Extensions.Tests.csproj", "{33309F0D-F4A6-481E-A962-A4C719A2BCAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.System.Data.Extensions", "DotNet.System.Data.Extensions\DotNet.System.Data.Extensions.csproj", "{7B2F5534-53B2-4CD3-B666-5C8F27B0B87D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.System.Data.Extensions", "DotNet.System.Data.Extensions\DotNet.System.Data.Extensions.csproj", "{7B2F5534-53B2-4CD3-B666-5C8F27B0B87D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
