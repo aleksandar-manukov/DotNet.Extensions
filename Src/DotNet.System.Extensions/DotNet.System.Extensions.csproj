@@ -4,7 +4,7 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <RootNamespace>DotNet.System</RootNamespace>
         <Description>This package contains extensions for classes from System namespace.</Description>
-        <PackageTags>extensions;dotnet;system;string</PackageTags>
+        <PackageTags>extensions;dotnet;system;string;object;type;</PackageTags>
         <VersionPrefix>1.0.0</VersionPrefix>
     </PropertyGroup>
 </Project>
