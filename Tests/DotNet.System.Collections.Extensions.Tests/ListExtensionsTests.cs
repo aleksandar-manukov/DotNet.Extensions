@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using DotNet.System.Collections.Generic.Extensions;
 using Xunit;
@@ -46,6 +47,18 @@ namespace DotNet.System.Collections.Extensions.Tests
 
             // Assert
             Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void PopOrDefault_Method_Should_Throw_ArgumentNullException_When_Passed_Predicate_Is_Null()
+        {
+            // Arrange
+            IList<int> items = new List<int>();
+
+            // Act
+
+            // Assert
+            Assert.Throws<ArgumentNullException>(() => items.PopOrDefault(null));
         }
     }
 }

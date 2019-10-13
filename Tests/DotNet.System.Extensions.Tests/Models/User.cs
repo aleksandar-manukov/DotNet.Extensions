@@ -5,6 +5,8 @@ namespace DotNet.System.Extensions.Tests.Models
 {
     public class User : IUser
     {
+        public string field;
+
         public int Id { get; set; }
         [Display(Name = "User first name")]
         public string FirstName { get; set; }

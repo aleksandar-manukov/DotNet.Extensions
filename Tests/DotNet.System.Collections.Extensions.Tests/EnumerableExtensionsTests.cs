@@ -27,5 +27,17 @@ namespace DotNet.System.Collections.Extensions.Tests
                 Assert.Equal(expectedCollectionResult.ElementAt(i).Score, actualCollectionResult.ElementAt(i).Score);
             }
         }
+
+        [Fact]
+        public void ForEach_Method_Should_Throw_ArgumentNullException_When_Passed_Action_Is_Null()
+        {
+            // Arrange
+            IEnumerable<User> initialCollection = new[] { new User(1, 2), new User(2, 5) };
+
+            // Act
+
+            // Assert
+            Assert.Throws<ArgumentNullException>(() => initialCollection.ForEach(null));
+        }
     }
 }
