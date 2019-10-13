@@ -1,5 +1,5 @@
-﻿using DotNet.System.Collections.Generic.Extensions;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using DotNet.System.Collections.Generic.Extensions;
 using Xunit;
 
 namespace DotNet.System.Collections.Extensions.Tests

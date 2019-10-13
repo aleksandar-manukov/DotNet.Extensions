@@ -1,5 +1,5 @@
-﻿using DotNet.System.Extensions.Tests.Models;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using DotNet.System.Extensions.Tests.Models;
 using Xunit;
 
 namespace DotNet.System.Extensions.Tests
