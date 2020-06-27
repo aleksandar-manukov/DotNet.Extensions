@@ -16,9 +16,9 @@ namespace DotNet.System.Reflection.Extensions.Tests
             Assembly assembly = Assembly.GetExecutingAssembly();
 
             // Act
-            string assemblyFolder = assembly.GetAssemblyFolder();
+            string assemblyDirectory = assembly.GetDirectory();
 
-            string filePath = Path.Combine(assemblyFolder, filesFolder, fileName);
+            string filePath = Path.Combine(assemblyDirectory, filesFolder, fileName);
 
             string fileContent = File.ReadAllText(filePath);
 

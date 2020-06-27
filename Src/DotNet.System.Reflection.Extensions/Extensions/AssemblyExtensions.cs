@@ -16,7 +16,7 @@ namespace DotNet.System.Reflection.Extensions
         /// <returns>Assembly folder path.</returns>
         /// <exception cref="ArgumentNullException">Thrown when assembly is null.</exception>
         /// <example>
-        /// This is an example, showing how to use <see cref="GetAssemblyFolder(Assembly)"/>.
+        /// This is an example, showing how to use <see cref="GetDirectory(Assembly)"/>.
         /// <code>
         /// string assemblyFolder = Assembly.GetExecutingAssembly().GetAssemblyFolder();
         ///
@@ -25,7 +25,7 @@ namespace DotNet.System.Reflection.Extensions
         /// string configuration = File.ReadAllText(configurationPath);
         /// </code>
         /// </example>
-        public static string GetAssemblyFolder(this Assembly assembly)
+        public static string GetDirectory(this Assembly assembly)
         {
             if (assembly == null)
             {
