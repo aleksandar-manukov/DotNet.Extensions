@@ -19,8 +19,13 @@ namespace DotNet.System.Collections.Generic.Extensions
         /// <example>
         /// This is an example, showing how to use <see cref="AddRange{T}(ICollection{T}, IEnumerable{T})"/>.
         /// <code>
-        /// ICollection{int} numbers = new[] { 1, 2, 3 };
-        /// 
+        /// ICollection{int} numbers = new List{int}
+        /// {
+        ///     1,
+        ///     2,
+        ///     3
+        /// };
+        ///
         /// numbers.AddRange(new[] { 4, 5, 6 });
         /// </code>
         /// </example>
@@ -52,8 +57,13 @@ namespace DotNet.System.Collections.Generic.Extensions
         /// <example>
         /// This is an example, showing how to use <see cref="RemoveWhere{T}(ICollection{T}, Func{T, bool})"/>.
         /// <code>
-        /// ICollection{int} numbers = new[] { 1, 2, 3 };
-        /// 
+        /// ICollection{int} numbers = new List{int}
+        /// {
+        ///     1,
+        ///     2,
+        ///     3
+        /// };
+        ///
         /// numbers.RemoveWhere(n => n % 2 == 0);
         /// </code>
         /// </example>
