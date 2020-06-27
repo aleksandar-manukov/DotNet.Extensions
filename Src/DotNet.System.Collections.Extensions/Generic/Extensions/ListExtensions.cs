@@ -20,8 +20,8 @@ namespace DotNet.System.Collections.Generic.Extensions
         /// This is an example, showing how to use <see cref="PopOrDefault{T}(IList{T}, Func{T, bool})"/>.
         /// <code>
         /// IList{User} users = new List{User}
-        /// {{ 
-        ///     new User {{ Id = 1, Score = 1 }}, 
+        /// {{
+        ///     new User {{ Id = 1, Score = 1 }},
         ///     new User {{ Id = 2, Score = 2 }}
         /// }};
         ///
@@ -40,19 +40,21 @@ namespace DotNet.System.Collections.Generic.Extensions
                 throw new ArgumentNullException(nameof(predicate), "Predicate cannot be null.");
             }
 
+            T item = default(T);
+
             for (int i = 0; i < list.Count; i++)
             {
                 if (predicate(list[i]))
                 {
-                    T item = list[i];
+                    item = list[i];
 
                     list.RemoveAt(i);
 
-                    return item;
+                    break;
                 }
             }
 
-            return default(T);
+            return item;
         }
     }
 }
