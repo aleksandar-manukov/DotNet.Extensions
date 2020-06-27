@@ -10,17 +10,17 @@ namespace DotNet.System.Reflection.Extensions
     public static class AssemblyExtensions
     {
         /// <summary>
-        /// Gets assembly folder path.
+        /// Gets assembly directory.
         /// </summary>
-        /// <param name="assembly">Assembly which folder is searched.</param>
-        /// <returns>Assembly folder path.</returns>
+        /// <param name="assembly">Assembly which directory is searched.</param>
+        /// <returns>Assembly directory.</returns>
         /// <exception cref="ArgumentNullException">Thrown when assembly is null.</exception>
         /// <example>
         /// This is an example, showing how to use <see cref="GetDirectory(Assembly)"/>.
         /// <code>
-        /// string assemblyFolder = Assembly.GetExecutingAssembly().GetAssemblyFolder();
+        /// string assemblyDirectory = Assembly.GetExecutingAssembly().GetDirectory();
         ///
-        /// string configurationPath = Path.Combine(assemblyFolder, "Configuration.xml");
+        /// string configurationPath = Path.Combine(assemblyDirectory, "Configuration.xml");
         ///
         /// string configuration = File.ReadAllText(configurationPath);
         /// </code>
