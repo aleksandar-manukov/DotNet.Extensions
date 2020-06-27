@@ -21,7 +21,7 @@ namespace DotNet.System.Extensions
         /// This is an example, showing how to use <see cref="LoadAsync(DataTable, DbDataReader)"/>.
         /// <code>
         /// string connectionString = "connection string";
-        /// 
+        ///
         /// using (DbConnection connection = new SqlConnection(connectionString))
         /// {
         ///     await connection.OpenAsync();
@@ -73,9 +73,7 @@ namespace DotNet.System.Extensions
 
                 for (int i = 0; i < reader.FieldCount; i++)
                 {
-                    object data = await reader.GetFieldValueAsync<object>(i);
-
-                    row[i] = data;
+                    row[i] = await reader.GetFieldValueAsync<object>(i);
                 }
 
                 table.Rows.Add(row);

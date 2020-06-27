@@ -63,6 +63,7 @@ namespace DotNet.System.Extensions
 
             return sb.ToString();
         }
+
         /// <summary>
         /// Converts any string to pascal case.
         /// </summary>
